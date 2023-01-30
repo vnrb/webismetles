@@ -1,0 +1,35 @@
+header{
+    background-image: url("kepek/fejlec.jpg");
+    height: 450px;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px black;
+    color: beige;
+    padding-top: 120px;
+    letter-spacing: 3px;
+}
+
+.row{
+    height: 450px;
+}
+
+
+.feher-div{
+    padding: 50px;
+    text-align: justify;
+}
+
+.szurke-div{
+    background-color: gray;
+
+}
+
+.szurke-div img{
+   height: 70%;
+   top: 15%;
+   position: relative;
+}
