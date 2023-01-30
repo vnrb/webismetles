@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Adatok felvétele</h1>
+
+        <form>
+
+            <p>
+                <label>Vezetéknév:</label>
+                <input type="text">
+            </p>
+
+            <p>
+                <label>Keresztnév:</label>
+                <input type="text">
+            </p>
+
+            <p>
+                <label>Születési év:</label>
+                <input type="number" max="2023" min="1900">
+            </p>
+
+            <p>
+                <label>email cím:</label>
+                <input type="text" placeholder="email@cim.hu">
+            </p>
+
+            <p>
+                <label>email cím mégegyszer:</label>
+                <input type="text">
+            </p>
+
+            <p>
+                <label>jelszó:</label>
+                <input type="password">
+            </p>
+
+            <p>
+                <label>jelszó mégegyszer:</label>
+                <input type="password">
+            </p>
+
+            <p>
+                <input type="radio" name="csop1">radiobutton1<br>
+                <input type="radio" name="csop1">radiobutton2<br>
+                <input type="radio" name="csop1">radiobutton3<br>
+                <input type="radio" name="csop1">radiobutton3<br>
+            </p>
+
+            <p>
+                <input type="radio" name="csop2">radiobutton1<br>
+                <input type="radio" name="csop2">radiobutton2<br>
+                <input type="radio" name="csop2">radiobutton3<br>
+                <input type="radio" name="csop2">radiobutton3<br>
+            </p>
+
+            <p>
+                <input type="checkbox" checked>checkbox1<br>
+                <input type="checkbox">checkbox2<br>
+                <input type="checkbox">checkbox3<br>
+                <input type="checkbox">checkbox4<br>
+            </p>
+
+
+            <p>
+                <textarea cols="50" rows="6"></textarea>
+
+            </p>
+
+            <p>
+                <select name="" id=""><!-- multiple --> 
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat" selected>Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+
+            </p>
+
+            <p>
+
+                <input type="text" value="Érték csakolvasásra" readonly>
+
+            </p>
+
+            <p>
+                Csúszka:
+                <input type="range" min="100" max="1000" value="200" step="50">
+            </p>
+
+            <p>
+                <!--
+                    <input type="button" value="Küldés">
+                
+                    <input type="submit" value="Küldés">
+
+                -->
+
+                <button disabled>Küldés</button>
+
+            </p>
+
+
+        </form>
+
+    </div>
+    
+</body>
+
+</html>

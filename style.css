@@ -1,6 +1,6 @@
 header{
     background-image: url("kepek/fejlec.jpg");
-    height: 450px;
+    height: 30vw;
     background-size: contain;
     background-attachment: fixed;
 }
@@ -33,3 +33,21 @@ h1{
    top: 15%;
    position: relative;
 }
+
+/*@media screen and (max-width:1460px)
+{
+    header
+        {
+            height: 350px;
+        }
+
+}
+
+@media screen and (max-width:1140px)
+{
+    header
+        {
+            height: 250px;
+        }
+
+}*/
